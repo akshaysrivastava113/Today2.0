@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.todo-btn:hover {
+    opacity: 1;
+    box-shadow: 5px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.edit-btn:hover{
+    opacity: 1;
+    box-shadow: 5px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.done-btn:hover {
+    opacity: 1;
+    box-shadow: 5px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.delete-btn:hover {
+    opacity: 1;
+    box-shadow: 5px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.todo-content:hover {
+    opacity: 1;
+    box-shadow: 8px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(70%, 130%);
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    z-index: 1;
+  }
